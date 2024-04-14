@@ -1,10 +1,8 @@
 'use client';
 
-import {
-  EmailOutlined,
-  LockOutlined,
-  PersonOutline,
-} from '@mui/icons-material';
+import EmailOutlined from '@mui/icons-material/EmailOutlined';
+import LockOutlined from '@mui/icons-material/LockOutlined';
+import PersonOutline from '@mui/icons-material/PersonOutline';
 import { signIn } from 'next-auth/react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';

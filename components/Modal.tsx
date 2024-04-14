@@ -1,7 +1,9 @@
 'use client';
 
 import { Genre, Movie, Video } from '@lib/types';
-import { AddCircle, CancelRounded, RemoveCircle } from '@mui/icons-material';
+import AddCircle from '@mui/icons-material/AddCircle';
+import CancelRounded from '@mui/icons-material/CancelRounded';
+import RemoveCircle from '@mui/icons-material/RemoveCircle';
 import { set } from 'mongoose';
 import { useSession } from 'next-auth/react';
 import React, { useEffect, useState } from 'react';
